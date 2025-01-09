@@ -1,0 +1,248 @@
+/* Container and Card */
+.container {
+    width: 100%; /* Full width */
+    height: 100%; /* 80% of viewport height */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* border: 2px solid; */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* background-color: #fff; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height:100%; /* Ensure full height is taken by card */
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20rem;
+    /* margin-top: -1.5rem; */
+    /* background-color: #fff; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: fit-content; /* Ensure full height is taken by card */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  /* Titles */
+  h5, .swmh6{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Select Dropdown Styling */
+  .form-select {
+    width: 100%;
+    /* padding: 10px; */
+    font-size: 1rem;
+    margin-bottom: 15px;
+    /* border: 1px solid #dda3a3; */
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .form-select12{
+    width: 100%;
+    padding: 5px;
+    font-size: 0.8rem;
+    /* margin-bottom: 15px; */
+    /* border: 1px solid #dda3a3; */
+    border-radius: 5px;
+    outline: none;
+  
+    transition: all 0.3s ease;
+  }
+  
+  /* .form-select{
+    outline: none;
+    border-color: #8691F0;
+  } */
+  
+  /* Timer Display */
+  .swmh6{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  .cotainer_btn {
+    width: 100%;
+    /* padding: 10px; */
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    flex-direction: row;
+    display: flex;
+  }
+  
+  button.btn-primary {
+    background-color: #8691F0;
+    color: white;
+    width: 50%;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  button.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    width: 50%;
+  
+  }
+  
+  button.btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  button.mt-3 {
+    margin-top: 15px;
+  }
+  
+  
+  /* Flexbox Layout for Rows and Columns */
+  .row1{
+    display: flex;
+    gap: 17px;
+    flex-direction: column !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid; */
+  }
+  .row2{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: fit-content;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+  .form-control{
+    margin-top: 1px ;
+    height: 6.6rem;
+  }
+  
+  .col-md-6, .col-md-12 {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      width: 100%;
+    }
+  
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  /* Layout for Task Report and Break Section */
+  .card-body {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .card-body2{
+    display: flex;
+    width: 100%;
+    height: 16rem;
+    /* border: 2px solid; */
+    flex-direction: column; 
+    /* margin: 10px; */
+    gap: 10px;
+  }
+  .card-body-Break{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height:15.9rem !important ;
+    height: fit-content;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .me-2 {
+    margin-right: 10px;
+  }
+  .ProjectTaskStatus{
+    height: max-content;
+    margin-top: 20px;
+  }
+  
+  
+  /* SWM.css */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalswmcontent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    /* border: 2px solid; */
+    height: 20vh;
+  
+  }
+  .modalContentswm{
+    /* margin-top: 2rem; */
+    font-weight: 800;
+    color: black;
+    font-size: larger;
+  }
+  
+  .modalcontentswm button {
+    margin: 40px;
+    border: 2px solid;
+    display: flex;
+  }
+  .modelOfSWM{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
